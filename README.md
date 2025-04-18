@@ -1,0 +1,1 @@
+This is a Discord Bot made in collaboration with Svoen, it retrieves all the messages from a certain channel and saves it to a database with the relevant information. This can be used to easily manage large amount of discord messages for further use (e.g. a Kahoot Quiz).
