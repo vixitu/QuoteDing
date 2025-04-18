@@ -1,0 +1,29 @@
+{
+  "name": "quoteding",
+  "version": "1.0.0",
+  "description": "Doet Quote Dingen",
+  "main": "bot.js",
+  "scripts": {
+    "test": "!test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "QuoteDing"
+  },
+  "keywords": [
+    "quotes"
+  ],
+  "author": "sven warta en kas walewyn bevers",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0"
+  }
+}
