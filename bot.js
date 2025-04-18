@@ -35,7 +35,7 @@ for (const file of slashFiles) {
 
 const rest = new REST({ version: "9" }).setToken(TOKEN);
 const clientId = "1362731347323650189";
-const guildId = "1362732630491009125";
+const guildId = "1022070341490708541";
 
 // and deploy your commands!
 (async () => {
@@ -75,7 +75,6 @@ client.on("interactionCreate", async (interaction) => {
     const slashcmd = client.commands.get(interaction.commandName);
     if (!slashcmd) interaction.reply("Not a valid slash command");
 
-    await interaction.deferReply();
     await slashcmd.run({ client, interaction });
   }
   handleCommand();
